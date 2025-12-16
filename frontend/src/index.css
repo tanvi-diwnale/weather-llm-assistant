@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+
+  /* Mountain + River background */
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* dark overlay for readability */
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.weather-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.response {
+  margin-top: 20px;
+  background: #f3f4f6;
+  padding: 15px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.weather-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 15px;
+}
+
+.material-symbols-outlined {
+  font-size: 48px;
+}
+
+.rain-icon {
+  color: #2563eb; /* blue */
+}
+
+.sun-icon {
+  color: #f59e0b; /* warm sun color */
+}
