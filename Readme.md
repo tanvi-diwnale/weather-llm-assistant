@@ -48,3 +48,6 @@ The backend intelligently detects weather-related queries and fetches live weath
 - Modular and scalable project structure
 - Secure handling of API keys using environment variables
 
+## ScreenShots of website
+<img width="1869" height="880" alt="image" src="https://github.com/user-attachments/assets/87738a04-1663-4f93-a5f1-a625e4ed3fea" />
+
